@@ -24,8 +24,6 @@ export const data = [
   },
 ];
 
-export const Status = ["To Do", "In Progress", "Review", "Completed"];
-
 export const todos = {
   todo: {
     id: "todo",
@@ -51,25 +49,3 @@ export const todos = {
     tasks: [],
   },
 };
-
-export const processes = [
-    {
-      title: "To-Do",
-      tasks: [],
-    },
-  
-    {
-      title: "In Progress",
-      tasks: [],
-    },
-  
-    {
-      title: "Review",
-      tasks: [],
-    },
-  
-    {
-      title: "Completed",
-      tasks: [],
-    },
-  ];

@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { data, Status, processes, todos } from "./assets/index";
+import { todos } from "./assets/index";
 import { DragDropContext, Draggable, Droppable } from "react-beautiful-dnd";
 import CardContainer from "./componets/CardContainer";
 
@@ -22,9 +22,6 @@ function App() {
 
     const start = tasks[source.droppableId];
     const end = tasks[destination.droppableId];
-
-    // console.log(start);
-    // console.log(end);
 
     if (start === end) {
       const newTasksSet = start.tasks;
